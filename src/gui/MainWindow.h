@@ -143,6 +143,7 @@ private slots:
     void releaseContextFocusLock();
     void agentEnabled(bool enabled);
     void updateTrayIcon();
+    void focusSearchWidget();
 
 private:
     static void setShortcut(QAction* action, QKeySequence::StandardKey standard, int fallback = 0);
